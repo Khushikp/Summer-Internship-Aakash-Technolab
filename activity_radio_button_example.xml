@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioButtonExample">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Radio Button Example"
+        android:layout_margin="20dp"
+        android:textColor="@color/purple_700"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Panjabi"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:id="@+id/pjb"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="South Indian"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:id="@+id/si"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chinese"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:id="@+id/cn"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Italian"
+            android:textSize="16sp"
+            android:id="@+id/it"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza"
+            android:textSize="16sp"
+            android:id="@+id/pz"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:id="@+id/btn"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
